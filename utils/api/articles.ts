@@ -1,5 +1,5 @@
 import { APIRequestContext, expect } from '@playwright/test';
-import { ArticlePayload } from '../../models/payloads/createArticlePayload';
+import { ArticlePayload } from '../../datafactory/createArticlePayload';
 
 export class ArticlesAPI {
   constructor(private api: APIRequestContext) {}

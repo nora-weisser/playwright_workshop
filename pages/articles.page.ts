@@ -1,6 +1,6 @@
 import { Page, Locator, expect } from '@playwright/test';
 import { BasePage } from './base.page';
-import { ArticlePayload } from '../models/payloads/createArticlePayload';
+import { ArticlePayload } from '../datafactory/createArticlePayload';
 
 export class ArticlesPage extends BasePage {
   readonly title: Locator;

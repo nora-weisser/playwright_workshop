@@ -1,6 +1,6 @@
 import { expect } from '@playwright/test';
 import { test } from '../fixtures/test-options';
-import { getArticlePayload } from '../models/payloads/createArticlePayload';
+import { getArticlePayload } from '../datafactory/createArticlePayload';
 import { faker } from '@faker-js/faker';
 
 test.describe('Article Management', () => {
